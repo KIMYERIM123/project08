@@ -1,0 +1,97 @@
+.Header {
+    background: #041e42;
+}
+
+.Header .header_wrap {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 065px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.Header .Gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.Header .Gnb>ul>li {
+    font-weight: 500;
+}
+
+.Header .search i {
+    font-size: 20px;
+}
+
+.Header .search button {
+    border: none;
+    outline: none;
+    background: #041e42;
+    color: #fff;
+}
+
+.Header input[type="text"] {
+    width: 100px;
+    height: 25px;
+
+    border: none;
+    outline: none;
+
+    font-family: 'Noto Sans KR';
+
+    transition: width 0.5s;
+    text-indent: 8px;
+
+    margin: 0 5px 0 0;
+}
+
+.Header input[type="text"]:focus {
+    width: 200px;
+}
+
+.Header input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+.Header .search input[type="text"]::placeholder {
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+/*  //Header */
+
+.Mainvisual .itm {
+    height: 630px;
+
+    position: relative;
+}
+
+.Mainvisual .itm01 {
+    background: url(../img/main01.jpg) no-repeat center top/cover;
+}
+
+.Mainvisual .itm02 {
+    background: url(../img/main02.jpg)no-repeat;
+}
+
+.Mainvisual .itm03 {
+    background: url(../img/main03.jpg) no-repeat;
+}
+
+.Mainvisual .itm::before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+}
