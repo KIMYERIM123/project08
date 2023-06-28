@@ -67,6 +67,7 @@
 
 .Mainvisual .itm {
     height: 630px;
+    width: 100%;
 
     position: relative;
 }
@@ -94,4 +95,40 @@
     bottom: 0;
 
     background: rgba(0, 0, 0, 0.5);
+
+    z-index: 1;
+}
+
+.Mainvisual .itm .itm_slogan {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+
+    z-index: 999;
+
+}
+
+.Mainvisual .itm_slogan p {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+
+    margin-bottom: 50px;
+}
+
+.Mainvisual .itm_slogan a {
+    color: #fff;
+    background: #061f42;
+    padding: 15px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.Mainvisual .itm_slogan a:hover {
+    background: #04152e;
+
 }
