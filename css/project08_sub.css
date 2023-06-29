@@ -1,0 +1,280 @@
+.Header {
+    background: #041e42;
+}
+
+.Header .header_wrap {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.Header .gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.Header .gnb>ul>li {
+    font-weight: 500;
+}
+
+.Header .search i {
+    font-size: 20px;
+}
+
+.Header .search button {
+    border: none;
+    outline: none;
+    background: #041e42;
+    color: #fff;
+}
+
+.Header input[type="text"] {
+    width: 100px;
+    height: 25px;
+
+    border: none;
+    outline: none;
+
+    font-family: 'Noto Sans KR';
+
+    transition: width 0.5s;
+    text-indent: 8px;
+
+    margin: 0 5px 0 0;
+}
+
+.Header input[type="text"]:focus {
+    width: 200px;
+}
+
+.Header input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+.Header .search input[type="text"]::placeholder {
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+/*  //Header */
+
+.History .title {
+    height: 350px;
+    background: url(../img/sub_tit.jpg);
+
+    position: relative;
+}
+
+.History .title::before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    z-index: 1;
+}
+
+.History h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 999;
+}
+
+.History .inner {
+    padding: 100px 15px 100px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.History .inner_tit {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.History h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #061f42;
+
+    position: relative;
+}
+
+.History h3::before {
+    content: "";
+    height: 5px;
+    width: 40px;
+    background: #cba052;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.History .inner_tit p {
+    color: #666;
+    margin-bottom: 70px;
+}
+
+.History .inner .inner_con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.History .inner .inner_con .left .img_box {
+    width: 700px;
+    height: 683px;
+    border: 1px solid #c0bebe;
+    border-radius: 20px;
+
+
+    background: url(../img/elevators-decades.gif) no-repeat center center;
+
+}
+
+.History .inner .inner_con .right p {
+    line-height: 30px;
+}
+
+
+.History .inner .inner_con .right span {
+    background: linear-gradient(to top, rgba(203, 160, 82, 0.5) 50%, transparent 50%);
+}
+
+.History .inner .inner_con02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.History .inner .inner_con02 .right .img_box {
+    width: 700px;
+    height: 600px;
+    border: 1px solid #c0bebe;
+    border-radius: 20px;
+
+
+    background: url(../img/haughwout_building_1859.jpg) no-repeat center center;
+}
+
+.History .inner_con02 .left strong {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+
+    display: block;
+    margin-bottom: 30px;
+}
+
+.History .inner_con02 .left p {
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.History .inner_con02 .left a {
+    background: #061f42;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.History .inner_con02 .left a:hover {
+    background: #04152e;
+
+}
+
+.History .inner_con02 .left {
+    position: relative;
+}
+
+.History .inner_con02 .left .left_con {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+/* //History */
+
+.Footer {
+    padding: 60px 0;
+    background: #061f42;
+    color: #d3cccc;
+}
+
+.Footer .footer_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.Footer .top {
+    display: flex;
+    gap: 20px;
+}
+
+.Footer .top_01 {
+    margin-bottom: 10px;
+}
+
+.Footer .top li {
+    position: relative;
+
+    font-size: 14px;
+}
+
+.Footer .top .tt {
+    font-weight: 600;
+}
+
+.Footer .top li~li::before {
+    content: "";
+    width: 1px;
+    height: 15px;
+    background: #4e4d4d;
+
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.Footer .top_02 {
+    margin-bottom: 30px;
+}
+
+.Footer .img_box {
+    margin-bottom: 30px;
+}
+
+.Footer span {
+    display: block;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.Footer address {
+    font-style: normal;
+    font-size: 14px;
+}
+
+/* //Footer */
