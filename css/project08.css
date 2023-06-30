@@ -24,6 +24,10 @@
     font-weight: 500;
 }
 
+.Header .gnb>ul>li:nth-child(3) {
+    color: #cba052;
+}
+
 .Header .search i {
     font-size: 20px;
 }
@@ -64,6 +68,8 @@
     font-size: 15px;
     text-indent: 10px;
 }
+
+
 
 /*  //Header */
 
