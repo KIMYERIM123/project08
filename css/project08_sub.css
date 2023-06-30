@@ -142,12 +142,12 @@
 
 .History .inner .inner_con .left .img_box {
     width: 700px;
-    height: 683px;
+    height: 660px;
     border: 1px solid #c0bebe;
     border-radius: 20px;
 
 
-    background: url(../img/elevators-decades.gif) no-repeat center center;
+    background: url(../img/elevators-decades.gif) no-repeat center top;
 
 }
 
@@ -167,13 +167,13 @@
 }
 
 .History .inner .inner_con02 .right .img_box {
-    width: 700px;
-    height: 600px;
-    border: 1px solid #c0bebe;
+    width: 600px;
+    height: 500px;
+    /* border: 1px solid #c0bebe; */
     border-radius: 20px;
 
 
-    background: url(../img/haughwout_building_1859.jpg) no-repeat center center;
+    background: url(../img/haughwout_building_1859.jpg) no-repeat center center/cover;
 }
 
 .History .inner_con02 .left strong {
@@ -199,7 +199,8 @@
 }
 
 .History .inner_con02 .left a:hover {
-    background: #04152e;
+    /* background: #04152e; */
+    color: #cba052;
 
 }
 
